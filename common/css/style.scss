@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/* ***************** IMPORT *********************** */
+@import "compass/css3";
+@import "inc/_mixin.scss";
+/* ************************************************ */
+
+div{
+  width: 200px;
+  padding: 10px;
+  @include bo();
+}
+
+p{
+  margin: 10px;
+}

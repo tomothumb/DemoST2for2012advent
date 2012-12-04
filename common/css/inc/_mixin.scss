@@ -1,0 +1,11 @@
+/**
+ * _mixin.scss
+ * MIXIN demo file
+ * 2012.12.05
+ */
+
+@mixin bo( $width: 1px, $type: solid, $color: #CCCCCC){
+  border-color: $color;
+  border-style: $type;
+  border-width: $width;
+}
